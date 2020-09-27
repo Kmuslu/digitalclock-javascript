@@ -1,0 +1,30 @@
+body{   
+    background-image: url("./img/day.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.clock{
+    color: rgb(67, 23, 212) ;
+    font-size: 50px;
+    margin-top: 300px;
+    
+}
+
+p {
+    color: rgba(179, 92, 11, 0.979);
+    font-size: 35px;
+    
+}
+
+.main > * {
+    margin-left: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    .main{
+        text-align:center;
+
+    }
+}
